@@ -1,0 +1,172 @@
+body{
+    
+    font-family: 'Staatliches', cursive;
+  
+   
+}
+
+.topnav {
+ background: black;
+ overflow: hidden;
+}
+
+
+.topnav a {
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+
+.topnav a.active {
+background: rgb(0,0,0);
+ color: white;
+}
+
+.header {
+ padding: 30px;
+ text-align: center;
+ background-image: url("https://cdn.discordapp.com/attachments/975489795373543474/993718447492038746/My_project_1.jpg");
+ background-color: #cccccc;
+ color: white;
+ font-size: 30px;
+}
+h2{color:white;
+  
+}
+about{ text-align: left;
+       list-style-position: inside;
+}
+h3{ color:white; }
+
+input[type=text], select, textarea {
+ width: 100%; 
+ padding: 12px; 
+ border: 1px solid #ccc; 
+ border-radius: 4px; 
+ box-sizing: border-box;  
+ margin-top: 6px;
+ margin-bottom: 16px; 
+ resize: vertical; 
+}
+h1{color:black;}
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-color: black;
+ padding: 20px;
+ font-family: Arial;
+}
+.project1{width:300px;
+         height:300px;
+}
+
+.projectcont {
+ position: relative;
+ width: 50%;
+ max-width: 300px;
+}
+
+
+.project1 {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+
+.overlay {
+ position: absolute;
+ bottom: 0;
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5); 
+ color: #f1f1f1;
+ width: 100%;
+ transition: .5s ease;
+ opacity:0;
+ color: white;
+ font-size: 20px;
+ padding: 20px;
+ text-align: center;
+}
+
+.projectcont:hover .overlay {
+ opacity: 1;
+}
+
+input[type=text], select, textarea {
+ width: 100%; 
+ padding: 12px; 
+ border: 1px solid #ccc; 
+ border-radius: 4px; 
+ box-sizing: border-box;  
+ margin-top: 6px;
+ margin-bottom: 16px; 
+ resize: vertical; 
+}
+
+
+input[type=submit] {
+ background-color: black;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+
+.container {
+ border-radius: 5px;
+background: white;
+ padding: 20px;
+}
+
+p{
+ color: white;
+
+
+}
+
+h5{
+  color: white;
+ 
+ 
+ }
+ 
+ .abt{
+  text-align: center;
+
+
+
+ }
+
+ .about{
+
+  text-align: center;
+
+
+ }
+
+.homebutton{ 
+  text-decoration: none; 
+  border-bottom:1px solid red; 
+
+
+}
