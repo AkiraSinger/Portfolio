@@ -128,13 +128,14 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
- background-color: #45a049;
+ background-color: #ffffff;
+ color: black;
 }
 
 
 .container {
  border-radius: 5px;
-background: white;
+background: black;
  padding: 20px;
 }
 
@@ -149,6 +150,7 @@ h5{
  
  
  }
+
  
  .abt{
   text-align: center;
@@ -169,4 +171,55 @@ h5{
   border-bottom:1px solid red; 
 
 
+}
+
+label{
+color: white;
+
+
+}
+
+.photo1{
+  display: block;
+  width: 100%;
+  height: 400px;
+  width: 600px;
+
+
+}
+.photo2{
+  display: block;
+  width: 100%;
+  height: 400px;
+  width: 600px;
+
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.linkin{
+width: 40px;
+height: 40px;
+left: 1050px;
+bottom: 290px;
+position: absolute;
+}
+
+.insta{
+  width: 50px;
+  height: 50px;
+  left: 1150px;
+  bottom: 285px;
+  position: absolute;
 }
